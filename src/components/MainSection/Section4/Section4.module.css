@@ -1,0 +1,134 @@
+.Section4{
+    background-color: rgb(12, 11, 11);
+    width: 100%;
+    min-height: 400px;
+    color:white;
+    padding: 20px 0;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.heading{
+    display: flex;
+    margin: 20px 0;
+    font-size: 30px;
+    font-weight: 550;
+    justify-content: center;
+}
+
+.details{
+    display: flex;
+    justify-content: space-around;
+    margin: 25px 0;
+    line-height: 1.5;
+    flex-wrap: wrap;
+}
+.details1{
+
+}
+
+.details1Image{
+    display: flex;
+    align-items: center;
+}
+
+.details2{
+
+}
+.details2Image{
+    width: 40px;
+    margin: 5px 0;
+}
+.details2Image img{
+    width: 80%;
+    image-rendering: -webkit-optimize-contrast;
+}
+.detials3{
+
+}
+
+.info{
+    font-size: 22px;
+    margin: 10px 0;
+}
+
+.icons{
+    display: flex;
+    flex-direction: column;
+}
+.icons div{
+    width: 40px;
+    margin: 5px 0;
+}
+.icons div img{
+    width: 80%;
+    background-color: black;
+}
+
+a:hover{
+    cursor: pointer;
+}
+
+.materialIcons{
+    color: white;
+}
+
+@media (max-width:540px){
+    .Section4{
+        
+    }
+    
+    .heading{
+        font-size: 25px;
+        margin: 15px 0;
+    }
+    
+    .details{
+        flex-direction: column;
+        margin: 5px;
+        padding-left: 10px;
+        flex-wrap: nowrap;
+    }
+    .details1{
+        margin: 10px 0;
+    }
+    
+    .details1Image{
+        display: flex;
+        align-items: center;
+    }
+    
+    .details2{
+        margin: 10px 0;
+    }
+    .details2Image{
+        width: 40px;
+        margin: 5px 0;
+    }
+    .details2Image img{
+        width: 80%;
+        image-rendering: -webkit-optimize-contrast;
+    }
+    .detials3{
+        margin: 10px 0;
+    }
+    
+    .info{
+        font-size: 20px;
+        /* margin: 10px 0; */
+    }
+    
+    .icons{
+        display: flex;
+        flex-direction: row;
+    }
+    .icons div{
+        width: 40px;
+        margin: 5px 0;
+    }
+    .icons div img{
+        width: 80%;
+        background-color: black;
+    }
+}
